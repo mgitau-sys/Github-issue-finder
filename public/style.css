@@ -1,0 +1,169 @@
+:root {
+  --ink: #12141C;
+  --surface: #1B1E2B;
+  --line: #2A2E42;
+  --paper: #F1F0EC;
+  --slate: #8B90A8;
+  --green: #3DDC84;
+  --violet: #8B5CF6;
+  --amber: #FFB800;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a { color: var(--green); }
+
+header {
+  padding: 40px 20px 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+header h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+
+header h1 span { color: var(--green); }
+
+header p {
+  color: var(--slate);
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.search-form select,
+.search-form input {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--paper);
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.search-form input {
+  flex: 1;
+  min-width: 160px;
+}
+
+.search-form button {
+  background: var(--green);
+  color: var(--ink);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-form button:hover { opacity: 0.9; }
+
+main { padding: 24px 20px 60px; }
+
+#statusBar {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--slate);
+  min-height: 1.2em;
+}
+
+#statusBar.error { color: #FF6B6B; }
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.issue-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--paper);
+}
+
+.issue-card:hover { border-color: var(--green); }
+
+.card-repo {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--violet);
+}
+
+.card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-snippet {
+  color: var(--slate);
+  font-size: 0.85rem;
+  flex: 1;
+}
+
+.card-labels { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.label-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--slate);
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+}
+
+.card-meta .amber { color: var(--amber); }
+
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--slate);
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 20px;
+  color: var(--slate);
+  font-size: 0.8rem;
+}
