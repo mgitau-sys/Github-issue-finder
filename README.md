@@ -5,12 +5,12 @@ their first contribution to
 
 ## Why this exists
 Getting started with contributing to open source code on github is harder than it should be 
-because the beginner friendly issues with various lables are scattered across millions of
+because the beginner friendly issues with various labels are scattered across millions of
 repositories that are not related. And its so hard to browse exactly what you want to work
 on and thats what this app is solving. Search once and filter by language, topic and get a 
 well arranged list of issues one can go and contribute right away.
 
-## Live demo
+**Demo video:** [Watch on Loom]([https://www.loom.com/share/your-video-id-her](https://www.loom.com/share/738538e894594d6c8563a0f64f3190a0)e)
 
 `<add your deployed URL here once live>`
 **Link to deployed website:** https://3.92.185.125/
