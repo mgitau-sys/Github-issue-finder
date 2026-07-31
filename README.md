@@ -11,8 +11,6 @@ on and thats what this app is solving. Search once and filter by language, topic
 well arranged list of issues one can go and contribute right away.
 
 **Demo video:** [Watch on Loom]([https://www.loom.com/share/your-video-id-her](https://www.loom.com/share/738538e894594d6c8563a0f64f3190a0)e)
-
-`<add your deployed URL here once live>`
 **Link to deployed website:** https://3.92.185.125/
 ## Features
 
