@@ -161,7 +161,9 @@ backend http_outgoing
     server web-02 <WEB02_IP>:80 check
 ```
 ### 3. Verifying the load balancer works
-use curl -sI <lbo1 address>
+```
+use curl -skI <lbo1 address>
+```
 ```
 Example output confirming traffic is split across both servers:
 ```
