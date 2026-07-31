@@ -10,7 +10,7 @@ repositories that are not related. And its so hard to browse exactly what you wa
 on and thats what this app is solving. Search once and filter by language, topic and get a 
 well arranged list of issues one can go and contribute right away.
 
-**Demo video:** https://www.loom.com/share/738538e894594d6c8563a0f64f3190a0
+[Demo video](https://www.loom.com/share/738538e894594d6c8563a0f64f3190a0)
 **Link to deployed website:** https://3.92.185.125/
 ## Features
 
