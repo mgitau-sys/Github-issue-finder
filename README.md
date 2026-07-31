@@ -13,7 +13,7 @@ well arranged list of issues one can go and contribute right away.
 ## Live demo
 
 `<add your deployed URL here once live>`
-
+**Link to deployed website:** https://3.92.185.125/
 ## Features
 
 - Search open GitHub issues labeled as beginner-friendly
